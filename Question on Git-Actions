@@ -2,3 +2,8 @@ What are the components of GIt actions
 what are runners
 what are the type of runners you have in GIT actions
 what is the path you need create for working on .yml file - .github/worflows/xxx.yml
+what are the types of Git-Action event trigger -  https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
+does job run inparallel - yes
+does steps run in prallel - no they are sequential
+how to run job in sequence - needs: job1 . needs: [job1 , jobs1.2]
+what are git actions- 
