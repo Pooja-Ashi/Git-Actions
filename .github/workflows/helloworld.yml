@@ -4,7 +4,17 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - name: step1
+      - name: step1.1
         run: echo "Hello World!"
-      - name: step2
+      - name: step1.2
         run: echo "this is beautiful world"
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step2.1
+        run: echo "Hi Pooja"
+      - name: step 2.3
+        run: sleep 20
+      - name: step2.2
+        run: echo "welcome to Git-Action training"
+      
